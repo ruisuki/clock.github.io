@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: SAOUI;
+}
+
+@font-face {
+  font-family: SAOUI;
+  src: url('SAOUI.ttf');
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+
+.pm {
+  width: 120px;
+  height: 50px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  font-size: 250%;
+  -webkit-box-reflect: below -15px -webkit-gradient(linear, center top, center bottom, from(transparent), color-stop(0.4, transparent), to(white));
+}
